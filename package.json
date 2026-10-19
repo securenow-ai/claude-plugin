@@ -1,0 +1,10 @@
+{
+  "name": "securenow-claude-plugin",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pins the securenow npm package that the plugin's MCP server runs (npx -y securenow@8.12.4 mcp).",
+  "license": "ISC",
+  "dependencies": {
+    "securenow": "8.12.4"
+  }
+}
