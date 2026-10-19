@@ -1,8 +1,8 @@
 {
   "name": "securenow",
   "displayName": "SecureNow",
-  "version": "1.0.0",
-  "description": "Production security for Node.js apps, built for coding agents. Investigate live attacks with traces, logs and IP intelligence, work the approval queue, and turn code findings into production detections. Blocks, rate limits and rule changes always wait for your approval.",
+  "version": "2.0.0",
+  "description": "Production security for your web apps: a security brief of what's attacking them, investigations of any IP or alert with traces, logs and IP reputation, plain-English questions over your traffic, the approval queue for blocks SecureNow's AI prepared, noisy-rule tuning and a weekly report, plus project setup and a code audit that turns findings into production detections in coding agents. Investigate access is read-only; with Investigate and respond, every block, rate limit and rule change is previewed and waits for your yes.",
   "author": {
     "name": "SecureNow",
     "email": "contact@securenow.ai",
@@ -15,12 +15,12 @@
     "security",
     "production-security",
     "application-security",
-    "nodejs",
-    "mcp",
+    "incident-response",
     "firewall",
     "attack-detection",
-    "incident-response",
-    "threat-modeling"
+    "threat-modeling",
+    "nodejs",
+    "mcp"
   ],
   "icon": "./assets/logo.svg",
   "documentationUrl": "https://securenow.ai/cli+mcp",

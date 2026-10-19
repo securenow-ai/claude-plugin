@@ -5,13 +5,13 @@
     "email": "contact@securenow.ai"
   },
   "metadata": {
-    "description": "SecureNow plugins: production security for Node.js apps, built for coding agents."
+    "description": "SecureNow: production security for your web apps, in your AI tools."
   },
   "plugins": [
     {
       "name": "securenow",
       "source": "./",
-      "description": "Investigate live attacks, work the approval queue, run a security patrol, and turn code findings into production detections through the SecureNow MCP server. Every write waits for your approval.",
+      "description": "Investigate attacks on your apps, work the approval queue and respond with your approval, through the hosted SecureNow connector. Every change waits for your yes.",
       "category": "Security"
     }
   ]
