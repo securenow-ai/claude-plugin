@@ -1,0 +1,30 @@
+{
+  "name": "securenow",
+  "displayName": "SecureNow",
+  "version": "1.0.0",
+  "description": "Production security for Node.js apps, built for coding agents. Investigate live attacks with traces, logs and IP intelligence, work the approval queue, and turn code findings into production detections. Blocks, rate limits and rule changes always wait for your approval.",
+  "author": {
+    "name": "SecureNow",
+    "email": "contact@securenow.ai",
+    "url": "https://securenow.ai"
+  },
+  "homepage": "https://securenow.ai/cli+mcp",
+  "repository": "https://github.com/securenow-ai/claude-plugin",
+  "license": "ISC",
+  "keywords": [
+    "security",
+    "production-security",
+    "application-security",
+    "nodejs",
+    "mcp",
+    "firewall",
+    "attack-detection",
+    "incident-response",
+    "threat-modeling"
+  ],
+  "icon": "./assets/logo.svg",
+  "documentationUrl": "https://securenow.ai/cli+mcp",
+  "supportUrl": "https://securenow.ai/contact",
+  "privacyPolicyUrl": "https://securenow.ai/privacy-policy",
+  "termsOfServiceUrl": "https://securenow.ai/tos"
+}

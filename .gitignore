@@ -1,0 +1,9 @@
+# OS files the plugin directories reject
+.DS_Store
+Thumbs.db
+desktop.ini
+__MACOSX/
+
+# Never publish local SecureNow credentials or dependencies
+.securenow/
+node_modules/

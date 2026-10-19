@@ -1,0 +1,18 @@
+{
+  "name": "securenow",
+  "owner": {
+    "name": "SecureNow",
+    "email": "contact@securenow.ai"
+  },
+  "metadata": {
+    "description": "SecureNow plugins: production security for Node.js apps, built for coding agents."
+  },
+  "plugins": [
+    {
+      "name": "securenow",
+      "source": "./",
+      "description": "Investigate live attacks, work the approval queue, run a security patrol, and turn code findings into production detections through the SecureNow MCP server. Every write waits for your approval.",
+      "category": "Security"
+    }
+  ]
+}

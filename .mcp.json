@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "securenow": {
+      "command": "npx",
+      "args": ["-y", "securenow@8.12.4", "mcp"]
+    }
+  }
+}

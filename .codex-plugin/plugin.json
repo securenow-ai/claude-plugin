@@ -1,0 +1,44 @@
+{
+  "name": "securenow",
+  "version": "1.0.0",
+  "description": "Production security for Node.js apps, built for coding agents. Investigate live attacks with traces, logs and IP intelligence, work the approval queue, and turn code findings into production detections. Blocks, rate limits and rule changes always wait for your approval.",
+  "author": {
+    "name": "SecureNow",
+    "email": "contact@securenow.ai",
+    "url": "https://securenow.ai"
+  },
+  "homepage": "https://securenow.ai/cli+mcp",
+  "repository": "https://github.com/securenow-ai/claude-plugin",
+  "license": "ISC",
+  "keywords": [
+    "security",
+    "production-security",
+    "application-security",
+    "nodejs",
+    "mcp",
+    "firewall",
+    "attack-detection",
+    "incident-response",
+    "threat-modeling"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "SecureNow",
+    "shortDescription": "Production security for Node.js apps, built for coding agents",
+    "longDescription": "Connects your coding agent to SecureNow: investigate live attacks with traces, logs and IP intelligence, work the approval queue with evidence, run a security patrol, and map code findings to production detections. Blocking an IP, adding a rate limit, creating a rule and every other write wait for your approval.",
+    "developerName": "SecureNow",
+    "category": "Security",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://securenow.ai",
+    "privacyPolicyURL": "https://securenow.ai/privacy-policy",
+    "termsOfServiceURL": "https://securenow.ai/tos",
+    "defaultPrompt": [
+      "Set up SecureNow in this project",
+      "Investigate the latest attack on my app",
+      "Work my SecureNow approval queue"
+    ],
+    "composerIcon": "./assets/logo.svg",
+    "logo": "./assets/logo.svg"
+  }
+}
